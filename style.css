@@ -20,6 +20,8 @@ font-weight: 400;
     background-image: url(imagens/background.png);
     background-size: contain;
     background-repeat: no-repeat;
+align-items: center;
+text-align: center;
 }
 .container{
     height: 100vh;
@@ -46,4 +48,33 @@ text-decoration: nome;
 .container_titulo{
     font-size: 28px;
     font-weight: 700;
+    }
+.container_imagem{
+    margin-bottom: 1em;
+}
+.container_caixa{
+    margin: 0 6em
+}
+.secundario_imagem{
+    width: 80%;
+}
+.secundario{
+align-items: center;
+margin: 0 10em;
+}
+.descricao_titulo{
+font-weight: 700;
+font-size: 48px;
+color:var(--branco-principal);
+}
+.descricao_texto{
+    margin-bottom: 0.1em;
+    color: var(--cinza-secundario);
+}
+.secundario_botao{
+display: inline-block;
+margin-top: 1em
+}
+.container_descricao{
+    padding: 2em
 }
